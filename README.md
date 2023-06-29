@@ -4,6 +4,8 @@
 
 This is a portfolio website that showcases my work samples as a developer. It provides an overview of my skills and experience, as well as a collection of deployed applications. The portfolio is designed to be visually appealing, responsive, and user-friendly.
 
+![portfolio demo](./Assets/photo/Capture.PNG)
+
 ## Table of Contents
 - [Description](#description)
 - [Deployed Application](#deployed-application)

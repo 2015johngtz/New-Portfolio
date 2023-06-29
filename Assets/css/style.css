@@ -1,44 +1,98 @@
-/* General styles */
+/* BODY */
 body {
     font-family: Arial, sans-serif;
     margin: 1em;
     margin: 1em;
-    /* padding: 50; */
-    /* width: 100%; */
     height: 100%;
     align-items: center;
   }
-  
+  /* CHANGES ALL HEADER ELEMENTS */
   h1, h2, h4 {
     text-align: center;
   }
-  
+/* CHANGES CONTACT TITLE DETAILS */
+  h2 {
+    border-bottom: 1px solid rgb(14, 138, 192) ;
+    padding-bottom: 20px;
+  }
+/* CHANGES HTML-CSS-JAVA TITLE */
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* CHANGES HOMEPAGE TITLE DETAILS */
   h1 {
     padding-bottom: 10px;
-    /* background-color: aliceblue; */
     width: 100%;
     border-bottom: 1px solid rgb(14, 138, 192);
   }
-
+/* ADJUST MAIN SECTION OF CARDS AND ALIGNS THEM */
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
+/* ADJUST THE HOVER AFFECT ON THE CLICK HERE BUTTON ON CARDS */
+.card2:hover {
+  background-color: #0061c9;
+}
+/* ALIGNS THE CONTACT SECTION ELEMENTS */
+#contact {
+  display: flex;
+  justify-content: center;
+}
+/* CHANGES ABOUT ME BACKGROUND DETAILS */
+.card {
+  background-color: #e7e7e766;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: fit-content;
+}
+/* CHANGES CARDS BUTTONS DETAIL */
+.card2 {
+  display: flex;
+  justify-content: center;
+  background-color: #2fb4e966;
+  padding: 10px;
+  border: dotted;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100px;
+}
+/* CLICK HERE BUTTON DETAILS */
 .link {
   color: white;
 }
-
+/* DIMENSIONS OF PROFILE PIC */
   #ppimg {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
     padding: 36px;
-    /* width: 100%; */
   }
-
+/* CHANGES CARD BACK DETAILS  */
+  #project {
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* CHANGES PARAGRAPH DETAILS */
+p {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* CHANGES DETAILS OF FLARE UNDER NAV BAR */
   #flareimg {
     margin-top: 15px;
     width: 100%;
@@ -72,92 +126,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
     align-self: center;
     transform: rotate(90deg);
     border-radius: 50%;
     box-shadow: 5px 20px 9px #129cd266;
-    /* padding-bottom: 70px; */
-    /* width: 100%; */
   }
-
-.card {
-    /* align-items: center; */
-    /* display: flex; */
-    /* justify-content: center; */
-    background-color: #e7e7e766;
-    padding: 10px;
-    /* border: dotted; */
-    /* width: 30%; */
-    text-align: center;
-    /* margin-left: 30%; */
-    margin: 0 auto; /*Centrar horizontalmente el elemento */
-    max-width: fit-content;
-    /* max-width: 300px; Ajusta el valor según el ancho deseado */
-
-}
-
-.card2 {
-    /* align-items: center; */
-    display: flex;
-    justify-content: center;
-    background-color: #2fb4e966;
-    padding: 10px;
-    border: dotted;
-    /* width: 30%; */
-    text-align: center;
-    /* margin-left: 30%; */
-    margin: 0 auto; /* Centrar horizontalmente el elemento */
-    max-width: 100px; /* Ajusta el valor según el ancho deseado */
-
-}
-
-.button2 {
-width: 30%;
-}
-
-/* .boxcenter {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-} */
-
-#project {
-    margin: 10px;
-    text-align: center;
-    align-items: center;
-    display: block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
-/* .card:hover {
-    background-color: #0061c9;
-} */
-
-p {
-    text-align: center;
-     display: flex;
-    flex-wrap: wrap;
-}
-
-.card2:hover {
-    background-color: #0061c9;
-}
-
-#contact {
-    text-align: left;
-    background-color: #e7e7e766;
-}
-
-#contact2 {
-    text-align: left;
-}

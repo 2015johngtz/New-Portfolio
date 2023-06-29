@@ -1,135 +1,97 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Challenge 2 Portfolio</title>
-</head> -->
-
-<!-- 
-    NEEDED:
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
--->
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
   <link rel="stylesheet" href="./Assets/css/style.css">
-  <style>
-    /* Add your CSS styling here */
+  
+<style>
 
-    /* Responsive layout */
-    @media screen and (max-width: 600px) {
-      /* Add responsive CSS rules here */
-    }
-  </style>
+  /* Responsive layout */
+  @media screen and (max-width: 600px) {
+  }
+
+</style>
+
 </head>
-<body>
-  <header>
-    <h1>My Professional Portfolio</h1>
+  <body>
+    <header>
+      <h1>My Professional Portfolio</h1>
     
         <img id="ppimg" src="./Assets/photo/20220211_141353.jpg" alt="Developer's Photo" width="300" height="200" class="rotate-image">
-    <nav>
-      <ul>
-        <li><a href="#about">About Me!</a></li>
-        <li><a href="#project">My Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me!</a></li>
+          <li><a href="#project">My Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <section id="about">
-    
-    <img id="flareimg" src="./Assets/photo/WDNuCW-transparent-blue-horizontal-lens-flare-blue-line-light-sun-light-bulbs.png" alt="Developer's Photo">
+<section id="about">
 
-        <h2>HTML - CSS - JAVA</h2>
+  <img id="flareimg" src="./Assets/photo/WDNuCW-transparent-blue-horizontal-lens-flare-blue-line-light-sun-light-bulbs.png" alt="Developer's Photo">
 
-    <p>
-        <h4 class="card">
+    <h3>HTML - CSS - JAVA</h3>
+
+      <p class="card">
             My name is Jonathan Gutierrez and i am a full stack web developer with multiple on-going websites proven to convert clients with current industry brand awareness strategies.
-        </h4>
-    </p>
+      </p>
 
-  </section>
+</section>
 
 <div class="container">
-  <section class="boxcenter center-section" id="project">
+
+  <section id="project">
 
     <h2>MOST RECENT</h2>
 
-        <p>
+      <p>
         This website contains only HTML and CSS Styling.
-        </p>
+      </p>
 
-        <p>
-            
-                <h4 class="card2">
-                  <a href="https://2015johngtz.github.io/horiseon-refactor-2/" class="link">Click here</a>
-                </h4>
+      <p>
+        <h4 class="card2">
+          <a href="https://2015johngtz.github.io/horiseon-refactor-2/" class="link">Click here</a>
+        </h4>
+      </p>
 
-        </p>
+</section>
+
+<section id="project">
+
+  <h2>PROJECT 2</h2>
+
+    <p>
+      This website contains only HTML and CSS Styling.
+    </p>
+
+    <p>
+      
+      <h4 class="card2">
+        <a href="https://2015johngtz.github.io/prework-study-guide/" class="link">Click here</a>
+      </h4>
+
+      </p>
 
   </section>
 
-  <section class="boxcenter center-section" id="project">
-
-    <h2>PROJECT 2</h2>
-
-        <p>
-        This website contains only HTML and CSS Styling.
-        </p>
-
-        <p>
-            
-                <h4 class="card2">
-                  <a href="https://2015johngtz.github.io/prework-study-guide/" class="link">Click here</a>
-                </h4>
-
-        </p>
-
-  </section>
 </div>
+
+  <h2>Contact</h2>
 
 <section id="contact">
 
-    
-
     <p>
-        <h2>Contact</h2>
-
-        <h4 id="contact2">
-            <ul>
-                <li>Jonathan Gutierrez</li>
-                <li>+1 (111) 222-3333</li>
-                <li>1998johngtz@gmail.com</li>
-              </ul>
-        </h4>
+      <ul>
+        <li>Jonathan Gutierrez</li>
+        <li>+1 (111) 222-3333</li>
+        <li>1998johngtz@gmail.com</li>
+      </ul>
     </p>
 
 </section>
 
-  <!-- Add more sections and content as needed -->
+  </body>
 
-  <script>
-    // Add any JavaScript functionality here (if required)
-  </script>
-</body>
 </html>

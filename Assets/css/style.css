@@ -2,28 +2,55 @@
 #about {
   margin: 0 50px;
   padding-top: 0px;
-  /* display: flex; */
   flex-direction: row;
   justify-content: center;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 0px 4px 0px #000000;
+}
+
+.navbar ul {
+  font-size: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  color: #0061c9;
+}
+
 h2 {
-  font-size: 32px;
-  /* justify-content: space-between */
+  font-size: 22px;
+  padding: 10px;
+
 }
 
 #ppimg {
-  /* display: block; */
-  /* justify-content: flex-start; */
-  /* margin: 20px 100% auto auto; */
-  /* max-width: 100%; */
-  /* display: flex; */
+
   transform: rotate(90deg);
   margin-top: 30px;
   margin-bottom: 30px;
   margin-right: 10px;
-  width: 333px;
-  height: 333px;
+  width: 222px;
+  height: 222px;
   border-radius: 50%;
   box-shadow: 5px 11px 10px #00000066;
   justify-content: center;
@@ -37,16 +64,16 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 body {
     font-family: Arial, sans-serif;
     height: 100%;
     width: 100%;
-    margin: 20px auto;
-    /* align-items: center; */
+    margin: 0px auto;
   }
 
   /* CHANGES ALL HEADER ELEMENTS */
@@ -55,20 +82,16 @@ body {
   }
 /* CHANGES CONTACT TITLE DETAILS */
 .contactme {
-    border-bottom: 1px solid rgb(0, 0, 0) ;
+    /* border-bottom: 1px solid rgb(0, 0, 0) ; */
     padding-bottom: 20px;
+    padding-top: 40px;
   }
 /* CHANGES HTML-CSS-JAVA TITLE */
 h3 {
   text-align: center;
   margin-bottom: 30px;
 }
-/* CHANGES HOMEPAGE TITLE DETAILS */
-  /* h1 {
-    padding-bottom: 20px;
-    width: 100%;
-    border-bottom: 1px solid rgb(14, 138, 192);
-  } */
+
 /* ADJUST MAIN SECTION OF CARDS AND ALIGNS THEM */
 .container {
   display: flex;
@@ -82,10 +105,11 @@ h3 {
 }
 /* ALIGNS THE CONTACT SECTION ELEMENTS */
 #contact {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
+  text-align: center ;
+  padding-top: 30px;
+  box-shadow: 1px 1px 4px 1px #000000;
   font-size: 23px;
+  padding-bottom: 30px;
 }
 /* CHANGES ABOUT ME BACKGROUND DETAILS */
 .card {
@@ -118,64 +142,53 @@ h3 {
 
 /* CHANGES CARD BACK DETAILS  */
   #project {
+    display: flex;
     margin-top: 20px;
     margin: 25px;
-    text-align: center;
-    /* align-items: center; */
-    /* display: block; */
+    justify-content: center;
+    flex-direction: column;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
-    /* text-decoration: none; */
-    /* border: none; */
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 2px 10px 9px #00000066;
+    width: 70%;
+    height: 250px;
+}
+
+#project h2 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+#project p {
+  padding-bottom: 15px;
+}
+
+#project1 {
+  margin-top: 20px;
+  margin: 25px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 2px 10px 9px #00000066;
+  width: 300px;
+  height: 150px;
 }
 /* CHANGES PARAGRAPH DETAILS */
 p {
     text-align: center;
     padding-bottom: 5px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
 }
 /* CHANGES DETAILS OF FLARE UNDER NAV BAR */
   #flareimg {
     margin-top: 20px;
     width: 100%;
     height: 30px;
-  }
-
-  nav {
-    padding-bottom: 7px;
-    box-shadow: 0px -1px 1px 1px #90909066 inset;
-
-    /* border-radius: 11px; */
-
-    /* background-color: #0061c9; */
-  }
-  
-  nav ul {
-    /* background-color: antiquewhite; */
-    /* font-weight: bold; */
-    /* list-style-type: none; */
-    /* padding: 0; */
-    /* padding-top: 10px;
-    padding-bottom: 0px; */
-    /* margin: 0; */
-    text-align: center;
-    font-size: 23px;
-    /* border-bottom: 1px solid rgb(14, 138, 192); */
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
   }
 
   .under-header {
@@ -202,7 +215,7 @@ p {
     display: flex;
     margin: 0 auto;
     margin-bottom: 20px;
-    height: 180px;
+    height: 120px;
   }
   
   /* Responsive layout */

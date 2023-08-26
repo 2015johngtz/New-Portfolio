@@ -1,4 +1,12 @@
 /* BODY */
+.first {
+  background-color: #0061c9;
+  font-size: 50px;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
 #about {
   margin: 0 50px;
   padding-top: 0px;
